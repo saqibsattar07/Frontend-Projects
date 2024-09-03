@@ -130,9 +130,10 @@ export default function Countdown() {
           </Button>
         </div>
         {/* Display the formatted time left */}
-        <div className="text-7xl font-extrabold text-transparent bg-clip-text bg-gray-900 mb-10 text-center">
+        <div className="text-7xl font-extrabold text-gray-900 mb-10 text-center">
           {formatTime(timeLeft)}
         </div>
+
         {/* Buttons to start, pause, and reset the timer */}
         <div className="flex justify-center gap-6">
           <Button
